@@ -23,6 +23,10 @@ of for add optional args:
 ```js
 modal('.popup-open', '.popup-close', '.overlay', 'myOpenClass', false)
 ```
+if you don't need btnOpenActiveClass, make it undefiled:
+```js
+modal('.popup-open', '.popup-close', '.overlay', undefined, false)
+```
 # Structure of HTML
 ```html
 <button class="popup-open"></button>
